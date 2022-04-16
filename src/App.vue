@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <SearchStays />
+    <SearchStays class=".search"/>
   </div>
 </template>
 
@@ -23,6 +23,9 @@ import SearchStays from './components/SearchStays.vue';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.main-container {
+  padding: 2rem;
 }
 </style>
